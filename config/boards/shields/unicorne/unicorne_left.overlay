@@ -12,6 +12,19 @@
         ;
 };
 
+/* &zephyr_display { */
+/*     compatible = "ssd1306"; */
+/*     label = "SSD1306"; */
+/*     #address-cells = <1>; */
+/*     #size-cells = <0>; */
+/*     reg = <0x3C>;  /* I2C address */ */
+/*     status = "okay"; */
+/* }; */
+/**/
+/* chosen { */
+/*     zephyr,display = &zephyr_display; */
+/* }; */
+
 // replace the following lines for the 128x64 screen by default
 /* &pro_micro_i2c { */
 /*     status = "okay"; */
