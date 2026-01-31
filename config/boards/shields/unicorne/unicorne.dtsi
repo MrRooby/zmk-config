@@ -6,10 +6,6 @@
       zmk,physical-layout = &physical_layout0;
     };
 
-    vbatt: vbatt {
-      compatible = "zmk,battery-nrf-vddh";
-    };
-
     physical_layout0: physical_layout_0 {
       compatible = "zmk,physical-layout";
       display-name = "Default Layout";
