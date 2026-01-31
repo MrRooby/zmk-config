@@ -20,9 +20,11 @@
 ---
 shield: ["unicorne_left", "unicorne_right"]
 include:
+  # - board: nrfmicro_11
+  #   shield: unicorne_left
+  # - board: nrfmicro_11
+  #   shield: unicorne_right
+  # - board: nrfmicro_11
+  #   shield: settings_reset
   - board: nrfmicro_11
-    shield: unicorne_left
-  - board: nrfmicro_11
-    shield: unicorne_right
-  - board: nrfmicro_11
-    shield: settings_reset
+    shield: tester_pro_micro
