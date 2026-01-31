@@ -18,10 +18,11 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+shield: ["unicorne_left", "unicorne_right"]
 include:
   - board: nrfmicro_11
-    shield: corne_left
+    shield: unicorne_left
   - board: nrfmicro_11
-    shield: corne_right
+    shield: unicorne_right
   - board: nrfmicro_11
     shield: settings_reset
